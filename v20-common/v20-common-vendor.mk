@@ -1,6 +1,7 @@
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
+
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
@@ -69,7 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/v20-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
-    vendor/lge/v20-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/lge/v20-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/v20-common/proprietary/lib/libarcsoft_object_tracking.so:system/lib/libarcsoft_object_tracking.so \
     vendor/lge/v20-common/proprietary/lib/libbwfocuspeaking.so:system/lib/libbwfocuspeaking.so \
@@ -77,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
     vendor/lge/v20-common/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
     vendor/lge/v20-common/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
+    vendor/lge/v20-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lge/v20-common/proprietary/lib/liblghdri.so:system/lib/liblghdri.so \
     vendor/lge/v20-common/proprietary/lib/liblgkm.so:system/lib/liblgkm.so \
     vendor/lge/v20-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -90,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/v20-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
-    vendor/lge/v20-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/v20-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/v20-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/v20-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
@@ -147,6 +148,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn \
     vendor/lge/v20-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn \
     vendor/lge/v20-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/lge/v20-common/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/lge/v20-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
+    vendor/lge/v20-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:system/vendor/lib/libactuator_bu24333gwl.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
