@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,8 +17,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter v20 h918 h910,$(TARGET_DEVICE)),)
+ifneq ($(filter v20 h910 h918 us996 ls997 vs995,$(TARGET_DEVICE)),)
 
-ifneq ($(TARGET_HAVE_QC_PERF),true)
-endif
 endif
